@@ -18,4 +18,7 @@ function ChangeSlide(Number)
     console.log("Images/" + Slidevalues[i - 1])
 }
 
-ChangeSlide(0)
+var x = setInterval(() => 
+{
+    ChangeSlide(1)
+}, 6000)
