@@ -149,3 +149,18 @@ img
 {
     right: 0;
 }
+
+.SlideImage
+{
+    opacity: 0;
+    width: 80%; 
+    max-height: 800px;
+    animation-name: Fade;
+    animation-duration: 6s;
+}
+
+@keyframes Fade {
+    0%{opacity: 0.2;}
+    25%, 85%{opacity: 1;}
+    100%{opacity: 0;}
+}
